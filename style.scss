@@ -1,0 +1,1646 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+i{
+    cursor: pointer;
+}
+header{
+    margin: auto;
+    max-width: 1400px;
+    height: 120px;
+      
+}
+.header-conteiner{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 5px 20px;
+    background: url(./photo_2023-11-03_14-56-54.jpg);
+    .header-top{
+        width: 100%;
+        height: 20px;
+        display: flex;
+        justify-content: space-between;
+        color: #d9affc;
+        a{
+            color: #d9affc;
+        }
+        a+a{
+            margin-left: 15px;
+        }
+      
+    }
+    .headera1:hover{
+        color: #ffffff;
+    }
+    .headera2:hover{
+        color: #ffffff;
+    }
+    .headera3:hover{
+        color: #ffffff;
+    }
+    .headera4:hover{
+        color: #ffffff;
+    }
+    
+    .header-bottom{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .fa-bars:hover{
+            background-color: rgba(255, 255, 255, 0.501);
+        }
+        
+    
+        
+        .header-bottom-wildberries a{
+            font-size: 50px;
+            color: white;
+        }
+        .fa-bars{
+            font-size: 30px;
+            padding: 15px 20px;
+            background-color: rgba(255, 255, 255, 0.273);
+            border-radius: 20px;
+            color: white;
+
+        }
+        .search-conteiner{
+            width: 750px;
+            height: 60px;
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            padding: 1px 10px;
+            background-color: rgb(255, 255, 255);
+            i{
+                font-size: 30px;
+                color: #9300ef;
+            }
+            .fa-camera-retro:hover{
+                color: #cb11ab;
+            }
+            
+
+            .search{
+                height: 100%;
+                width: 100%;
+                border-radius: 40px;
+                border: none;
+                outline: none;
+                font-size: 30px;
+            }
+        }
+        .header-bottom-right{
+            font-size: 40px;
+            color: rgb(255, 255, 255);
+            i+i{
+                margin-left: 25px;
+            }
+            i:hover{
+                color: #cb11ab;
+            }
+        }
+       
+    }
+    
+    
+
+}
+.add-header-conteiner{
+    max-width: 1350px;
+    height: 170px;
+    // border: 1px solid black;
+    margin: auto;
+    // background: url(https://static-basket-01.wb.ru/vol1/crm-bnrs/poster/ru/globalmainv3/1352x250/3global_shopping_day_2704.webp) center/cover;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .swiper{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+
+
+// Yfxfkj vtyqf 
+main{
+    max-width: 1400px;
+    height: 100%;
+    // border: 1px solid black;
+    margin: auto;
+    padding-bottom: 80px;
+}
+.section-1{
+    max-width: 1400px;
+    height: 550px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+// продукт чисто контрол в и контрол с
+.product1{
+    width: 260px;
+    height: 100%;
+    position: relative;
+    &:hover{
+        .product-bottom-prise{
+            color: #cb11ab;
+        }    
+        
+    }
+    
+
+    .product-top{
+        width: 100%;
+        height: 70%;
+        background-color: aqua;
+        background: url(https://lirus.kg/sources/goods/sviter_0918109230001_2331_mini.jpg);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #cdccd6;
+            &:hover{
+                
+                color: #9300ef;
+
+            }
+
+        }
+        a{
+            padding: 8px 15px;
+            background-color: rgba(130, 130, 130, 0.727);
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            align-self: flex-end;
+            display: none;
+            margin-bottom: 5px;
+        }
+        &:hover{
+            a{
+                display: block;
+            }
+            
+        }
+
+    }
+    .product-bottom{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-bottom-prise{
+            font-size: 28px;
+        }
+        a{
+            color: black;
+        }
+        .product-bottom-prozent{
+            margin-left: 5px;
+            padding: 5px 8px;
+            background-color: #d9affca5;
+            color: #9300ef;
+            font-weight: 600;
+        }
+        .product-bottom-button{
+            margin-bottom: 10px;
+            a{
+                padding: 10px 15px;
+                background-color:#cb11ab;
+                border-radius: 13px;
+                color: white;
+                font-weight: 800;
+            }
+            &:hover{
+                a{
+                    background-color: #ea21c8;
+                }
+            }
+        }
+        
+    }
+}
+// 222222222222222222222222222222222222222222222222222
+.product2{
+    width: 260px;
+    height: 100%;
+    position: relative;
+    &:hover{
+        .product-bottom-prise{
+            color: #cb11ab;
+        }    
+        
+    }
+    
+
+    .product-top{
+        width: 100%;
+        height: 70%;
+        background-color: aqua;
+        background: url(https://lirus.kg/sources/goods/kostyum_0918110390001_2322_mini.jpg);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #cdccd6;
+            &:hover{
+                
+                color: #9300ef;
+
+            }
+
+        }
+        a{
+            padding: 8px 15px;
+            background-color: rgba(130, 130, 130, 0.727);
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            align-self: flex-end;
+            display: none;
+            margin-bottom: 5px;
+        }
+        &:hover{
+            a{
+                display: block;
+            }
+            
+        }
+
+    }
+    .product-bottom{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-bottom-prise{
+            font-size: 28px;
+        }
+        a{
+            color: black;
+        }
+        .product-bottom-prozent{
+            margin-left: 5px;
+            padding: 5px 8px;
+            background-color: #d9affca5;
+            color: #9300ef;
+            font-weight: 600;
+        }
+        .product-bottom-button{
+            margin-bottom: 10px;
+            a{
+                padding: 10px 15px;
+                background-color:#cb11ab;
+                border-radius: 13px;
+                color: white;
+                font-weight: 800;
+            }
+            &:hover{
+                a{
+                    background-color: #ea21c8;
+                }
+            }
+        }
+        
+    }
+}
+
+// 3333333333333333333333333333333333333333333
+.product3{
+    width: 260px;
+    height: 100%;
+    position: relative;
+    &:hover{
+        .product-bottom-prise{
+            color: #cb11ab;
+        }    
+        
+    }
+    
+
+    .product-top{
+        width: 100%;
+        height: 70%;
+        background-color: aqua;
+        background: url(https://lirus.kg/sources/goods/palto_0918110590001_2253_mini.jpg);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #cdccd6;
+            &:hover{
+                
+                color: #9300ef;
+
+            }
+
+        }
+        a{
+            padding: 8px 15px;
+            background-color: rgba(130, 130, 130, 0.727);
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            align-self: flex-end;
+            display: none;
+            margin-bottom: 5px;
+        }
+        &:hover{
+            a{
+                display: block;
+            }
+            
+        }
+
+    }
+    .product-bottom{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-bottom-prise{
+            font-size: 28px;
+        }
+        a{
+            color: black;
+        }
+        .product-bottom-prozent{
+            margin-left: 5px;
+            padding: 5px 8px;
+            background-color: #d9affca5;
+            color: #9300ef;
+            font-weight: 600;
+        }
+        .product-bottom-button{
+            margin-bottom: 10px;
+            a{
+                padding: 10px 15px;
+                background-color:#cb11ab;
+                border-radius: 13px;
+                color: white;
+                font-weight: 800;
+            }
+            &:hover{
+                a{
+                    background-color: #ea21c8;
+                }
+            }
+        }
+        
+    }
+}
+// 444444444444444444444444444444444444444444444444
+.product4{
+    width: 260px;
+    height: 100%;
+    position: relative;
+    &:hover{
+        .product-bottom-prise{
+            color: #cb11ab;
+        }    
+        
+    }
+    
+
+    .product-top{
+        width: 100%;
+        height: 70%;
+        background-color: aqua;
+        background: url(https://lirus.kg/sources/goods/sviter_0917085710001_1702_mini.jpg);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #cdccd6;
+            &:hover{
+                
+                color: #9300ef;
+
+            }
+
+        }
+        a{
+            padding: 8px 15px;
+            background-color: rgba(130, 130, 130, 0.727);
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            align-self: flex-end;
+            display: none;
+            margin-bottom: 5px;
+        }
+        &:hover{
+            a{
+                display: block;
+            }
+            
+        }
+
+    }
+    .product-bottom{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-bottom-prise{
+            font-size: 28px;
+        }
+        a{
+            color: black;
+        }
+        .product-bottom-prozent{
+            margin-left: 5px;
+            padding: 5px 8px;
+            background-color: #d9affca5;
+            color: #9300ef;
+            font-weight: 600;
+        }
+        .product-bottom-button{
+            margin-bottom: 10px;
+            a{
+                padding: 10px 15px;
+                background-color:#cb11ab;
+                border-radius: 13px;
+                color: white;
+                font-weight: 800;
+            }
+            &:hover{
+                a{
+                    background-color: #ea21c8;
+                }
+            }
+        }
+        
+    }
+}
+// 5555555555555555555555555555555555555555
+.product5{
+    width: 260px;
+    height: 100%;
+    position: relative;
+    &:hover{
+        .product-bottom-prise{
+            color: #cb11ab;
+        }    
+        
+    }
+    
+
+    .product-top{
+        width: 100%;
+        height: 70%;
+        background-color: aqua;
+        background: url(https://i.gifer.com/AYUm.gif);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #cdccd6;
+            &:hover{
+                
+                color: #9300ef;
+
+            }
+
+        }
+        a{
+            padding: 8px 15px;
+            background-color: rgba(130, 130, 130, 0.727);
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            align-self: flex-end;
+            display: none;
+            margin-bottom: 5px;
+        }
+        &:hover{
+            a{
+                display: block;
+            }
+            
+        }
+
+    }
+    .product-bottom{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-bottom-prise{
+            font-size: 28px;
+        }
+        a{
+            color: black;
+        }
+        .product-bottom-prozent{
+            margin-left: 5px;
+            padding: 5px 8px;
+            background-color: #d9affca5;
+            color: #9300ef;
+            font-weight: 600;
+        }
+        .product-bottom-button{
+            margin-bottom: 10px;
+            a{
+                padding: 10px 15px;
+                background-color:#cb11ab;
+                border-radius: 13px;
+                color: white;
+                font-weight: 800;
+            }
+            &:hover{
+                a{
+                    background-color: #ea21c8;
+                }
+            }
+        }
+        
+    }
+}
+// клнец секшина для копи паста 
+
+// продукт чисто контрол в и контрол 
+
+.section-2{
+    max-width: 1400px;
+    height: 550px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.product-21{
+    width: 260px;
+    height: 100%;
+    position: relative;
+    &:hover{
+        .product-bottom-prise-21{
+            color: #cb11ab;
+        }     
+    }
+    
+
+    .product-top-21{
+        width: 100%;
+        height: 70%;
+        background-color: rgb(98, 45, 142);
+        background: url(https://lirus.kg/sources/goods/_3384_mini.jpg);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #cdccd6;
+            &:hover{
+                
+                color: #9300ef;
+
+            }
+
+        }
+        a{
+            padding: 8px 15px;
+            background-color: rgba(130, 130, 130, 0.727);
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            align-self: flex-end;
+            display: none;
+            margin-bottom: 5px;
+        }
+        &:hover{
+            a{
+                display: block;
+            }
+            
+        }
+
+    }
+    .product-bottom-21{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-bottom-prise-21{
+            font-size: 28px;
+        }
+        a{
+            color: black;
+        }
+        .product-bottom-prozent-21{
+            margin-left: 5px;
+            padding: 5px 8px;
+            background-color: #d9affca5;
+            color: #9300ef;
+            font-weight: 600;
+        }
+        .product-bottom-button-21{
+            margin-bottom: 10px;
+            a{
+                padding: 10px 15px;
+                background-color:#cb11ab;
+                border-radius: 13px;
+                color: white;
+                font-weight: 800;
+            }
+            &:hover{
+                a{
+                    background-color: #ea21c8;
+                }
+            }
+        }
+        
+    }
+}
+// 222222222222222222222222222222222222222222222222222
+.product22{
+    width: 260px;
+    height: 100%;
+    position: relative;
+    &:hover{
+        .product-bottom-prise22{
+            color: #cb11ab;
+        }    
+        
+    }
+    
+
+    .product-top22{
+        width: 100%;
+        height: 70%;
+        background-color: aqua;
+        background: url(https://lirus.kg/sources/goods/_3690_mini.jpg);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #cdccd6;
+            &:hover{
+                
+                color: #9300ef;
+
+            }
+
+        }
+        a{
+            padding: 8px 15px;
+            background-color: rgba(130, 130, 130, 0.727);
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            align-self: flex-end;
+            display: none;
+            margin-bottom: 5px;
+        }
+        &:hover{
+            a{
+                display: block;
+            }
+            
+        }
+
+    }
+    .product-bottom22{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-bottom-prise22{
+            font-size: 28px;
+        }
+        a{
+            color: black;
+        }
+        .product-bottom-prozent22{
+            margin-left: 5px;
+            padding: 5px 8px;
+            background-color: #d9affca5;
+            color: #9300ef;
+            font-weight: 600;
+        }
+        .product-bottom-button22{
+            margin-bottom: 10px;
+            a{
+                padding: 10px 15px;
+                background-color:#cb11ab;
+                border-radius: 13px;
+                color: white;
+                font-weight: 800;
+            }
+            &:hover{
+                a{
+                    background-color: #ea21c8;
+                }
+            }
+        }
+        
+    }
+}
+
+// 3333333333333333333333333333333333333333333
+.product33{
+    width: 260px;
+    height: 100%;
+    position: relative;
+    &:hover{
+        .product-bottom-prise33{
+            color: #cb11ab;
+        }    
+        
+    }
+    
+
+    .product-top33{
+        width: 100%;
+        height: 70%;
+        background-color: rgb(183, 255, 0);
+        background: url(https://lirus.kg/sources/goods/_3403_mini.jpg);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #cdccd6;
+            &:hover{
+                
+                color: #9300ef;
+
+            }
+
+        }
+        a{
+            padding: 8px 15px;
+            background-color: rgba(130, 130, 130, 0.727);
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            align-self: flex-end;
+            display: none;
+            margin-bottom: 5px;
+        }
+        &:hover{
+            a{
+                display: block;
+            }
+            
+        }
+
+    }
+    .product-bottom33{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-bottom-prise33{
+            font-size: 28px;
+        }
+        a{
+            color: black;
+        }
+        .product-bottom-prozent33{
+            margin-left: 5px;
+            padding: 5px 8px;
+            background-color: #d9affca5;
+            color: #9300ef;
+            font-weight: 600;
+        }
+        .product-bottom-button33{
+            margin-bottom: 10px;
+            a{
+                padding: 10px 15px;
+                background-color:#cb11ab;
+                border-radius: 13px;
+                color: white;
+                font-weight: 800;
+            }
+            &:hover{
+                a{
+                    background-color: #ea21c8;
+                }
+            }
+        }
+        
+    }
+}
+// 444444444444444444444444444444444444444444444444
+.product44{
+    width: 260px;
+    height: 100%;
+    position: relative;
+    &:hover{
+        .product-bottom-prise44{
+            color: #cb11ab;
+        }    
+        
+    }
+    
+
+    .product-top44{
+        width: 100%;
+        height: 70%;
+        background-color: aqua;
+        background: url(https://lirus.kg/sources/goods/_2855_mini.jpg);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #cdccd6;
+            &:hover{
+                
+                color: #9300ef;
+
+            }
+
+        }
+        a{
+            padding: 8px 15px;
+            background-color: rgba(130, 130, 130, 0.727);
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            align-self: flex-end;
+            display: none;
+            margin-bottom: 5px;
+        }
+        &:hover{
+            a{
+                display: block;
+            }
+            
+        }
+
+    }
+    .product-bottom44{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-bottom-prise44{
+            font-size: 28px;
+        }
+        a{
+            color: black;
+        }
+        .product-bottom-prozent44{
+            margin-left: 5px;
+            padding: 5px 8px;
+            background-color: #d9affca5;
+            color: #9300ef;
+            font-weight: 600;
+        }
+        .product-bottom-button44{
+            margin-bottom: 10px;
+            a{
+                padding: 10px 15px;
+                background-color:#cb11ab;
+                border-radius: 13px;
+                color: white;
+                font-weight: 800;
+            }
+            &:hover{
+                a{
+                    background-color: #ea21c8;
+                }
+            }
+        }
+        
+    }
+}
+// 5555555555555555555555555555555555555555
+.product55{
+    width: 260px;
+    height: 100%;
+    position: relative;
+    &:hover{
+        .product-bottom-prise55{
+            color: #cb11ab;
+        }    
+        
+    }
+    
+
+    .product-top55{
+        width: 100%;
+        height: 70%;
+        background-color: aqua;
+        background: url(https://lirus.kg/sources/goods/_3373_mini.jpg);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #cdccd6;
+            &:hover{
+                
+                color: #9300ef;
+
+            }
+
+        }
+        a{
+            padding: 8px 15px;
+            background-color: rgba(130, 130, 130, 0.727);
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            align-self: flex-end;
+            display: none;
+            margin-bottom: 5px;
+        }
+        &:hover{
+            a{
+                display: block;
+            }
+            
+        }
+
+    }
+    .product-bottom55{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-bottom-prise55{
+            font-size: 28px;
+        }
+        a{
+            color: black;
+        }
+        .product-bottom-prozent55{
+            margin-left: 5px;
+            padding: 5px 8px;
+            background-color: #d9affca5;
+            color: #9300ef;
+            font-weight: 600;
+        }
+        .product-bottom-button55{
+            margin-bottom: 10px;
+            a{
+                padding: 10px 15px;
+                background-color:#cb11ab;
+                border-radius: 13px;
+                color: white;
+                font-weight: 800;
+            }
+            &:hover{
+                a{
+                    background-color: #ea21c8;
+                }
+            }
+        }
+        
+    }
+}
+// клнец секшина для копи паста 
+// продукт чисто контрол в и контрол 
+
+.section-3{
+    max-width: 1400px;
+    height: 550px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.product-31{
+    width: 260px;
+    height: 100%;
+    position: relative;
+    &:hover{
+        .product-bottom-prise-31{
+            color: #cb11ab;
+        }     
+    }
+    
+
+    .product-top-31{
+        width: 100%;
+        height: 70%;
+        background-color: rgb(98, 45, 142);
+        background: url(https://lirus.kg/sources/goods/_2688_mini.jpg);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #cdccd6;
+            &:hover{
+                
+                color: #9300ef;
+
+            }
+
+        }
+        a{
+            padding: 8px 15px;
+            background-color: rgba(130, 130, 130, 0.727);
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            align-self: flex-end;
+            display: none;
+            margin-bottom: 5px;
+        }
+        &:hover{
+            a{
+                display: block;
+            }
+            
+        }
+
+    }
+    .product-bottom-31{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-bottom-prise-31{
+            font-size: 28px;
+        }
+        a{
+            color: black;
+        }
+        .product-bottom-prozent-31{
+            margin-left: 5px;
+            padding: 5px 8px;
+            background-color: #d9affca5;
+            color: #9300ef;
+            font-weight: 600;
+        }
+        .product-bottom-button-31{
+            margin-bottom: 10px;
+            a{
+                padding: 10px 15px;
+                background-color:#cb11ab;
+                border-radius: 13px;
+                color: white;
+                font-weight: 800;
+            }
+            &:hover{
+                a{
+                    background-color: #ea21c8;
+                }
+            }
+        }
+        
+    }
+}
+// 222222222222222222222222222222222222222222222222222
+.product32{
+    width: 260px;
+    height: 100%;
+    position: relative;
+    &:hover{
+        .product-bottom-prise32{
+            color: #cb11ab;
+        }    
+        
+    }
+    
+
+    .product-top32{
+        width: 100%;
+        height: 70%;
+        background-color: aqua;
+        background: url(https://lirus.kg/sources/goods/_2701_mini.jpg);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #cdccd6;
+            &:hover{
+                
+                color: #9300ef;
+
+            }
+
+        }
+        a{
+            padding: 8px 15px;
+            background-color: rgba(130, 130, 130, 0.727);
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            align-self: flex-end;
+            display: none;
+            margin-bottom: 5px;
+        }
+        &:hover{
+            a{
+                display: block;
+            }
+            
+        }
+
+    }
+    .product-bottom32{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-bottom-prise32{
+            font-size: 28px;
+        }
+        a{
+            color: black;
+        }
+        .product-bottom-prozent32{
+            margin-left: 5px;
+            padding: 5px 8px;
+            background-color: #d9affca5;
+            color: #9300ef;
+            font-weight: 600;
+        }
+        .product-bottom-button32{
+            margin-bottom: 10px;
+            a{
+                padding: 10px 15px;
+                background-color:#cb11ab;
+                border-radius: 13px;
+                color: white;
+                font-weight: 800;
+            }
+            &:hover{
+                a{
+                    background-color: #ea21c8;
+                }
+            }
+        }
+        
+    }
+}
+
+// 3333333333333333333333333333333333333333333
+.product33{
+    width: 260px;
+    height: 100%;
+    position: relative;
+    &:hover{
+        .product-bottom-prise333{
+            color: #cb11ab;
+        }    
+        
+    }
+    
+
+    .product-top333{
+        width: 100%;
+        height: 70%;
+        background-color: rgb(183, 255, 0);
+        background: url(https://lirus.kg/sources/goods/_3380_mini.jpg);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #cdccd6;
+            &:hover{
+                
+                color: #9300ef;
+
+            }
+
+        }
+        a{
+            padding: 8px 15px;
+            background-color: rgba(130, 130, 130, 0.727);
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            align-self: flex-end;
+            display: none;
+            margin-bottom: 5px;
+        }
+        &:hover{
+            a{
+                display: block;
+            }
+            
+        }
+
+    }
+    .product-bottom333{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-bottom-prise333{
+            font-size: 28px;
+        }
+        a{
+            color: black;
+        }
+        .product-bottom-prozent333{
+            margin-left: 5px;
+            padding: 5px 8px;
+            background-color: #d9affca5;
+            color: #9300ef;
+            font-weight: 600;
+        }
+        .product-bottom-button333{
+            margin-bottom: 10px;
+            a{
+                padding: 10px 15px;
+                background-color:#cb11ab;
+                border-radius: 13px;
+                color: white;
+                font-weight: 800;
+            }
+            &:hover{
+                a{
+                    background-color: #ea21c8;
+                }
+            }
+        }
+        
+    }
+}
+// 444444444444444444444444444444444444444444444444
+.product34{
+    width: 260px;
+    height: 100%;
+    position: relative;
+    &:hover{
+        .product-bottom-prise34{
+            color: #cb11ab;
+        }    
+        
+    }
+    
+
+    .product-top34{
+        width: 100%;
+        height: 70%;
+        background-color: aqua;
+        background: url(https://lirus.kg/sources/goods/_3384_mini.jpg);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #cdccd6;
+            &:hover{
+                
+                color: #9300ef;
+
+            }
+
+        }
+        a{
+            padding: 8px 15px;
+            background-color: rgba(130, 130, 130, 0.727);
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            align-self: flex-end;
+            display: none;
+            margin-bottom: 5px;
+        }
+        &:hover{
+            a{
+                display: block;
+            }
+            
+        }
+
+    }
+    .product-bottom34{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-bottom-prise34{
+            font-size: 28px;
+        }
+        a{
+            color: black;
+        }
+        .product-bottom-prozent34{
+            margin-left: 5px;
+            padding: 5px 8px;
+            background-color: #d9affca5;
+            color: #9300ef;
+            font-weight: 600;
+        }
+        .product-bottom-button34{
+            margin-bottom: 10px;
+            a{
+                padding: 10px 15px;
+                background-color:#cb11ab;
+                border-radius: 13px;
+                color: white;
+                font-weight: 800;
+            }
+            &:hover{
+                a{
+                    background-color: #ea21c8;
+                }
+            }
+        }
+        
+    }
+}
+// 5555555555555555555555555555555555555555
+.product35{
+    width: 260px;
+    height: 100%;
+    position: relative;
+    &:hover{
+        .product-bottom-prise35{
+            color: #cb11ab;
+        }    
+        
+    }
+    
+
+    .product-top35{
+        width: 100%;
+        height: 70%;
+        background-color: aqua;
+        background: url(https://lirus.kg/sources/goods/_3387_mini.jpg);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #cdccd6;
+            &:hover{
+                
+                color: #9300ef;
+
+            }
+
+        }
+        a{
+            padding: 8px 15px;
+            background-color: rgba(130, 130, 130, 0.727);
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            align-self: flex-end;
+            display: none;
+            margin-bottom: 5px;
+        }
+        &:hover{
+            a{
+                display: block;
+            }
+            
+        }
+
+    }
+    .product-bottom35{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .product-bottom-prise35{
+            font-size: 28px;
+        }
+        a{
+            color: black;
+        }
+        .product-bottom-prozent35{
+            margin-left: 5px;
+            padding: 5px 8px;
+            background-color: #d9affca5;
+            color: #9300ef;
+            font-weight: 600;
+        }
+        .product-bottom-button35{
+            margin-bottom: 10px;
+            a{
+                padding: 10px 15px;
+                background-color:#cb11ab;
+                border-radius: 13px;
+                color: white;
+                font-weight: 800;
+            }
+            &:hover{
+                a{
+                    background-color: #ea21c8;
+                }
+            }
+        }
+        
+    }
+}
+footer{
+    background-color: #481173;
+    height: 550px;
+}
+.footer-conteiner{
+    max-width: 1400px;
+    height: 100%;
+    
+    margin: auto;
+}
+.footer-conteiner-top{
+    width: 100%;
+    height: 70%;
+    // border: #cdccd6 2px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    ul{
+        list-style: none;
+    }
+   
+    a{
+        color: #bdaacd;
+        font-size: 20px;
+        line-height: 10px;
+        font-weight: 550;
+        
+        
+        
+    }
+    li+li{
+        margin-top: 15px;
+    }
+    strong{
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+        
+    }
+    a:hover{
+        color: #f3f1f4;
+        transition: 0.3s;
+    }
+}
+
+
+.footer-top-qr{
+    width: 210px;
+    height: 280px;
+   
+    
+    
+    h4{
+        color: white;
+        font-size: 20px;
+        margin-left: 45px;
+        margin-bottom: 15px;
+    }
+    h5{
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .footer-top-qr-border{
+        border: #97909089 2px solid;
+        width: 100%;
+        height: 100%;
+        padding: 20px 5px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .qr{
+        width: 130px;
+        height: 130px;
+        background: url(https://static-basket-01.wb.ru/vol0/i/v3/apps/qr.png) center/cover;
+        border-radius: 10px;
+    }
+    .icon-footer{
+        // border: 1px solid black;
+        margin-top: 15px;
+        i+i{
+            margin-left: 20px;
+        }
+        i{
+            
+            font-size: 39px;
+            color: white;
+        }
+    }
+}
+
+.footer-conteiner-bottom{
+    width: 100%;
+    height: 20%;
+    color: #bdaacd;
+    margin-top: 50px;
+    padding-left: 25px;
+    a{
+        color: #bdaacd;
+        text-decoration: underline;
+    }
+}
