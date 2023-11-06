@@ -11,7 +11,7 @@ i{
 }
 header{
     margin: auto;
-    max-width: 1400px;
+    max-width: 1500px;
     height: 120px;
       
 }
@@ -21,7 +21,9 @@ header{
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     padding: 5px 20px;
-    background: url(./photo_2023-11-03_14-56-54.jpg);
+    background: url(./photo_2023-11-06_21-26-59.jpg);
+    
+
     .header-top{
         width: 100%;
         height: 20px;
@@ -63,8 +65,9 @@ header{
     
         
         .header-bottom-wildberries a{
-            font-size: 50px;
+            font-size: clamp( 10px,5vw,50px);
             color: white;
+            margin-right: 15px;
         }
         .fa-bars{
             font-size: 30px;
@@ -82,6 +85,7 @@ header{
             align-items: center;
             padding: 1px 10px;
             background-color: rgb(255, 255, 255);
+            margin: 0px 15px;
             i{
                 font-size: 30px;
                 color: #9300ef;
@@ -101,10 +105,19 @@ header{
             }
         }
         .header-bottom-right{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 300px;
+            height: 80px;
+            
             font-size: 40px;
             color: rgb(255, 255, 255);
-            i+i{
-                margin-left: 25px;
+            a{
+                color: #ffffff;
+            }
+            a+a{
+                margin-left: 10px;
             }
             i:hover{
                 color: #cb11ab;
@@ -119,10 +132,8 @@ header{
 .add-header-conteiner{
     max-width: 1350px;
     height: 170px;
-    // border: 1px solid black;
+    border: 1px solid black;
     margin: auto;
-    // background: url(https://static-basket-01.wb.ru/vol1/crm-bnrs/poster/ru/globalmainv3/1352x250/3global_shopping_day_2704.webp) center/cover;
-    border-radius: 25px;
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
@@ -131,6 +142,10 @@ header{
     .swiper{
         width: 100%;
         height: 100%;
+        .swiper-slide{
+            display: flex;
+            align-items: center;
+        }
     }
 }
 
@@ -140,24 +155,25 @@ header{
 
 // Yfxfkj vtyqf 
 main{
-    max-width: 1400px;
+    max-width: 1500px;
     height: 100%;
-    // border: 1px solid black;
+    padding: 0px 15px;
     margin: auto;
     padding-bottom: 80px;
 }
 .section-1{
-    max-width: 1400px;
-    height: 550px;
+    max-width: 1500px;
+    height: 100%;
     padding: 15px 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-// продукт чисто контрол в и контрол с
 .product1{
     width: 260px;
-    height: 100%;
+    height: 550px;
     position: relative;
+    margin: 10px 15px;
     &:hover{
         .product-bottom-prise{
             color: #cb11ab;
@@ -170,7 +186,7 @@ main{
         width: 100%;
         height: 70%;
         background-color: aqua;
-        background: url(https://lirus.kg/sources/goods/sviter_0918109230001_2331_mini.jpg);
+        background: url(https://lirus.kg/sources/goods/sviter_0918109230001_2331_mini.jpg) center/cover;
         position: relative;
         display: flex;
         justify-content: center;
@@ -247,8 +263,9 @@ main{
 // 222222222222222222222222222222222222222222222222222
 .product2{
     width: 260px;
-    height: 100%;
+    height: 550px;
     position: relative;
+    margin: 10px 15px;
     &:hover{
         .product-bottom-prise{
             color: #cb11ab;
@@ -261,7 +278,7 @@ main{
         width: 100%;
         height: 70%;
         background-color: aqua;
-        background: url(https://lirus.kg/sources/goods/kostyum_0918110390001_2322_mini.jpg);
+        background: url(https://lirus.kg/sources/goods/kostyum_0918110390001_2322_mini.jpg) center/cover;
         position: relative;
         display: flex;
         justify-content: center;
@@ -339,8 +356,10 @@ main{
 // 3333333333333333333333333333333333333333333
 .product3{
     width: 260px;
-    height: 100%;
+    height: 550px;
     position: relative;
+    margin: 10px 15px;
+    // border: 1px solid black;
     &:hover{
         .product-bottom-prise{
             color: #cb11ab;
@@ -353,7 +372,7 @@ main{
         width: 100%;
         height: 70%;
         background-color: aqua;
-        background: url(https://lirus.kg/sources/goods/palto_0918110590001_2253_mini.jpg);
+        background: url(https://lirus.kg/sources/goods/palto_0918110590001_2253_mini.jpg)center/cover;
         position: relative;
         display: flex;
         justify-content: center;
@@ -430,8 +449,9 @@ main{
 // 444444444444444444444444444444444444444444444444
 .product4{
     width: 260px;
-    height: 100%;
+    height: 550px;
     position: relative;
+    margin: 10px 15px;
     &:hover{
         .product-bottom-prise{
             color: #cb11ab;
@@ -444,7 +464,7 @@ main{
         width: 100%;
         height: 70%;
         background-color: aqua;
-        background: url(https://lirus.kg/sources/goods/sviter_0917085710001_1702_mini.jpg);
+        background: url(https://lirus.kg/sources/goods/sviter_0917085710001_1702_mini.jpg)center/cover;
         position: relative;
         display: flex;
         justify-content: center;
@@ -521,8 +541,9 @@ main{
 // 5555555555555555555555555555555555555555
 .product5{
     width: 260px;
-    height: 100%;
+    height: 550px;
     position: relative;
+    margin: 10px 15px;
     &:hover{
         .product-bottom-prise{
             color: #cb11ab;
@@ -535,7 +556,7 @@ main{
         width: 100%;
         height: 70%;
         background-color: aqua;
-        background: url(https://i.gifer.com/AYUm.gif);
+        background: url(https://i.gifer.com/AYUm.gif)center/cover;
         position: relative;
         display: flex;
         justify-content: center;
@@ -609,21 +630,11 @@ main{
         
     }
 }
-// клнец секшина для копи паста 
-
-// продукт чисто контрол в и контрол 
-
-.section-2{
-    max-width: 1400px;
-    height: 550px;
-    padding: 15px 0px;
-    display: flex;
-    justify-content: space-between;
-}
 .product-21{
     width: 260px;
-    height: 100%;
+    height: 550px;
     position: relative;
+    margin: 10px 15px;
     &:hover{
         .product-bottom-prise-21{
             color: #cb11ab;
@@ -635,7 +646,7 @@ main{
         width: 100%;
         height: 70%;
         background-color: rgb(98, 45, 142);
-        background: url(https://lirus.kg/sources/goods/_3384_mini.jpg);
+        background: url(https://lirus.kg/sources/goods/_3384_mini.jpg)center/cover;
         position: relative;
         display: flex;
         justify-content: center;
@@ -712,8 +723,9 @@ main{
 // 222222222222222222222222222222222222222222222222222
 .product22{
     width: 260px;
-    height: 100%;
+    height: 550px;
     position: relative;
+    margin: 10px 15px;
     &:hover{
         .product-bottom-prise22{
             color: #cb11ab;
@@ -726,7 +738,7 @@ main{
         width: 100%;
         height: 70%;
         background-color: aqua;
-        background: url(https://lirus.kg/sources/goods/_3690_mini.jpg);
+        background: url(https://lirus.kg/sources/goods/_3690_mini.jpg)center/cover;
         position: relative;
         display: flex;
         justify-content: center;
@@ -804,8 +816,9 @@ main{
 // 3333333333333333333333333333333333333333333
 .product33{
     width: 260px;
-    height: 100%;
+    height: 550px;
     position: relative;
+    margin: 10px 15px;
     &:hover{
         .product-bottom-prise33{
             color: #cb11ab;
@@ -818,7 +831,7 @@ main{
         width: 100%;
         height: 70%;
         background-color: rgb(183, 255, 0);
-        background: url(https://lirus.kg/sources/goods/_3403_mini.jpg);
+        background: url(https://lirus.kg/sources/goods/_3403_mini.jpg)center/cover;
         position: relative;
         display: flex;
         justify-content: center;
@@ -895,8 +908,9 @@ main{
 // 444444444444444444444444444444444444444444444444
 .product44{
     width: 260px;
-    height: 100%;
+    height: 550px;
     position: relative;
+    margin: 10px 15px;
     &:hover{
         .product-bottom-prise44{
             color: #cb11ab;
@@ -909,7 +923,7 @@ main{
         width: 100%;
         height: 70%;
         background-color: aqua;
-        background: url(https://lirus.kg/sources/goods/_2855_mini.jpg);
+        background: url(https://lirus.kg/sources/goods/_2855_mini.jpg)center/cover;
         position: relative;
         display: flex;
         justify-content: center;
@@ -986,8 +1000,9 @@ main{
 // 5555555555555555555555555555555555555555
 .product55{
     width: 260px;
-    height: 100%;
+    height: 550px;
     position: relative;
+    margin: 10px 15px;
     &:hover{
         .product-bottom-prise55{
             color: #cb11ab;
@@ -1000,7 +1015,7 @@ main{
         width: 100%;
         height: 70%;
         background-color: aqua;
-        background: url(https://lirus.kg/sources/goods/_3373_mini.jpg);
+        background: url(https://lirus.kg/sources/goods/_3373_mini.jpg)center/cover;
         position: relative;
         display: flex;
         justify-content: center;
@@ -1074,20 +1089,11 @@ main{
         
     }
 }
-// клнец секшина для копи паста 
-// продукт чисто контрол в и контрол 
-
-.section-3{
-    max-width: 1400px;
-    height: 550px;
-    padding: 15px 0px;
-    display: flex;
-    justify-content: space-between;
-}
 .product-31{
     width: 260px;
-    height: 100%;
+    height: 550px;
     position: relative;
+    margin: 10px 15px;
     &:hover{
         .product-bottom-prise-31{
             color: #cb11ab;
@@ -1176,8 +1182,9 @@ main{
 // 222222222222222222222222222222222222222222222222222
 .product32{
     width: 260px;
-    height: 100%;
+    height: 550px;
     position: relative;
+    margin: 10px 15px;
     &:hover{
         .product-bottom-prise32{
             color: #cb11ab;
@@ -1190,7 +1197,7 @@ main{
         width: 100%;
         height: 70%;
         background-color: aqua;
-        background: url(https://lirus.kg/sources/goods/_2701_mini.jpg);
+        background: url(https://lirus.kg/sources/goods/_2701_mini.jpg)center/cover;
         position: relative;
         display: flex;
         justify-content: center;
@@ -1268,8 +1275,9 @@ main{
 // 3333333333333333333333333333333333333333333
 .product33{
     width: 260px;
-    height: 100%;
+    height: 550px;
     position: relative;
+    margin: 10px 15px;
     &:hover{
         .product-bottom-prise333{
             color: #cb11ab;
@@ -1282,7 +1290,7 @@ main{
         width: 100%;
         height: 70%;
         background-color: rgb(183, 255, 0);
-        background: url(https://lirus.kg/sources/goods/_3380_mini.jpg);
+        background: url(https://lirus.kg/sources/goods/_3380_mini.jpg)center/cover;
         position: relative;
         display: flex;
         justify-content: center;
@@ -1359,8 +1367,9 @@ main{
 // 444444444444444444444444444444444444444444444444
 .product34{
     width: 260px;
-    height: 100%;
+    height: 550px;
     position: relative;
+    margin: 10px 15px;
     &:hover{
         .product-bottom-prise34{
             color: #cb11ab;
@@ -1373,7 +1382,7 @@ main{
         width: 100%;
         height: 70%;
         background-color: aqua;
-        background: url(https://lirus.kg/sources/goods/_3384_mini.jpg);
+        background: url(https://lirus.kg/sources/goods/_3384_mini.jpg)center/cover;
         position: relative;
         display: flex;
         justify-content: center;
@@ -1450,8 +1459,9 @@ main{
 // 5555555555555555555555555555555555555555
 .product35{
     width: 260px;
-    height: 100%;
+    height: 550px;
     position: relative;
+    margin: 10px 15px;
     &:hover{
         .product-bottom-prise35{
             color: #cb11ab;
@@ -1464,7 +1474,7 @@ main{
         width: 100%;
         height: 70%;
         background-color: aqua;
-        background: url(https://lirus.kg/sources/goods/_3387_mini.jpg);
+        background: url(https://lirus.kg/sources/goods/_3387_mini.jpg)center/cover;
         position: relative;
         display: flex;
         justify-content: center;
@@ -1643,4 +1653,177 @@ footer{
         color: #bdaacd;
         text-decoration: underline;
     }
+}
+@media screen  and (max-width: 1000px){
+    footer{
+        height: 100%;
+    
+        .footer-conteiner{
+            
+            .footer-conteiner-top{
+                height: 80%;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                div{
+                    margin: 15px 20px;
+                }
+                h5{
+                    display: none;
+                }
+                a{
+                    font-size: 15px;
+                }
+            }
+            .footer-conteiner-bottom{
+                h4{
+                    font-size: 15px;
+                }
+            }
+        
+        
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+@media screen  and (max-width: 800px) {
+    .header-top-right{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header-top-left{
+        display: none;
+        
+    }
+    .header-bottom{
+        flex-direction: row-reverse;
+        position: relative;
+    }
+    .header-bottom-right{
+        width: 0;
+        height: 0;
+        position: absolute;
+    }
+    .header-bottom-right a{
+        display: none;
+    }
+    
+    .header-bottom-wildberries{
+        display: none;
+        
+        
+    }
+}
+@media screen  and (max-width: 530px) {
+    .header-bottom-wildberries{
+        display: none;
+    }
+    .search-conteiner{
+        
+        left: 5px;
+        width: 100px;
+    }
+    div{
+        margin: 0;
+    }
+}
+@media screen  and (max-width: 610px){
+    .product1{
+        height: 450px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .product2{
+        height: 450px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .product3{
+        height: 450px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .product4{
+        height: 450px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .product5{
+        height: 450px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .product-21{
+        height: 450px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .product22{
+        height: 450px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .product33{
+        height: 450px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .product44{
+        height: 450px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .product55{
+        height: 450px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .product-31{
+        height: 450px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .product32{
+        height: 450px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .product33{
+        height: 450px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .product34{
+        height: 450px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .product35{
+        height: 450px;
+        width: 200px;
+        font-size: 13px;
+        
+    }
+    
+}
+@media screen  and (min-width: 410px){
+    section{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-wrap: wrap-reverse;
+        div{
+            margin: 0
+        };
+    }
+    
+    
 }
